@@ -55,15 +55,12 @@
         <!DOCTYPE html>
 <html>
 <head>
-    <title>Malayan Music Player</title>
+    <title>Current Time Display</title>
 </head>
 <body>
-    <h1>Malayan Music Player</h1>
-    <%-- !! IMPORTANT: Make sure to use the asp tag for each TODO  !! --%>
-    <form runat="server">
-        <%-- Display the current time using template syntax --%>
-        Current Time: <%= DateTime.Now.ToString("HH:mm:ss") %>
-    </form>
+    <h1>Current Time</h1>
+    <p>The current time is: <%= DateTime.Now.ToString("HH:mm:ss") %></p>
 </body>
 </html>
+
 
